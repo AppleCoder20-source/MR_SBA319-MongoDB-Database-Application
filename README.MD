@@ -2,7 +2,6 @@
 
 A Electronics store in which you can buy items from the shop. We also included a review section where you can communicate about any issues. This is a full CRUD application Express JS, and primarily with MongoDB 
 
-
 ## User Stories 
   - Users able to buy items
   - Users able to remove items from cart
@@ -22,10 +21,10 @@ A Electronics store in which you can buy items from the shop. We also included a
 - http://localhost:3001/rev/reviews
 
 ## Tech Products:
- - This file has ALL GET,DELETE,POST,PATCH routes
+ - This file has ALL GET, DELETE ,POST , PATCH routes
  - GET:
- -http://localhost:3001/products/
- - -http://localhost:3001/products/:id
+ - http://localhost:3001/products/
+ - http://localhost:3001/products/:id
 
  - POST:
  - http://localhost:3001/products/stores
