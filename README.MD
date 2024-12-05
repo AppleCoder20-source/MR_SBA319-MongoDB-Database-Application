@@ -41,7 +41,7 @@ A Electronics store in which you can buy items from the shop. We also included a
 - To see all Users
 - http://localhost:3001/users/
 - To see ids:
-- http://localhost:3001/users/:
+- http://localhost:3001/users/:id
 
 - POST:
 - http://localhost:3001/users/post
