@@ -1,5 +1,3 @@
-// data/asus_products.js
-
 const TechProducts = [
     {
       device_type: "Laptop",
@@ -8,10 +6,10 @@ const TechProducts = [
       year: 2024,
     },
     {
-      device_type: "Gaming Console",
-      brand: "PS5",
+      device_type: "Watches",
+      brand: "AppleWatch",
       price: 500,
-      year: 2020,
+      year: 2023,
     },
   ];
   

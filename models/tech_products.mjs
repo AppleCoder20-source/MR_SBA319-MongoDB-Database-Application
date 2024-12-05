@@ -21,6 +21,7 @@ const ProductsSchema = new mongoose.Schema({
     type: Number,
   },
 });
+ProductsSchema.index({ device_type: 1, brand: 1, model: 1, year: 1 }, { unique: true });
 
 const Products = mongoose.model('Products', ProductsSchema);
 
