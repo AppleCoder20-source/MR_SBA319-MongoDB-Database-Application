@@ -9,8 +9,8 @@ A Electronics store in which you can buy items from the shop. We also included a
   - Another clear all feature where everything removed from cart
   - We also included a review section
 
-## All Routes that are avaiable:
-## Reviews:
+# All Routes that are avaiable:
+# Reviews:
 - GET Request to get all the reviews 
 - http://localhost:3001/rev/
 - GET Request to  see ids:
@@ -19,7 +19,7 @@ A Electronics store in which you can buy items from the shop. We also included a
 - POST:
 - http://localhost:3001/rev/reviews
 
-## Tech Products:
+# Tech Products:
  - This file has ALL GET, DELETE ,POST , PATCH routes
  - GET:
  - http://localhost:3001/products/
