@@ -48,6 +48,9 @@ A Electronics store in which you can buy items from the shop. We also included a
 
 
 
+#Index.js
+#Populated data with those who signed up early
+#http://localhost:3001/early
 
 
 

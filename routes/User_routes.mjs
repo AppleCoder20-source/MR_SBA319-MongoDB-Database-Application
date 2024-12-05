@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
       const customers = await Users.find({});
       res.send(customers);
     } catch (err) {
-      console.error('Error fetching products:', err);
+      console.error('Error fetching users:', err);
       res.status(500).send({ error: 'Failed to fetch Users' });
     }
   });

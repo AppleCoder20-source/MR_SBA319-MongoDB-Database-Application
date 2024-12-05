@@ -10,8 +10,8 @@ router.get('/', async (req, res) => {
       const tech_reviews = await Reviews.find({});
       res.send(tech_reviews);
     } catch (err) {
-      console.error('Error fetching products:', err);
-      res.status(500).send({ error: 'Failed to fetch products' });
+      console.error('Error fetching reviews:', err);
+      res.status(500).send({ error: 'Failed to fetch reviews' });
     }
   });
 
@@ -21,7 +21,7 @@ router.get('/', async (req, res) => {
       const findID = await Reviews.findById(searchID)
       res.send(findID);
     } catch (error) {
-      console.error('Error finding users:', error);
+      console.error('Error finding users reviews:', error);
       res.status(500).send({ Status: 'Server Error', error });
     }
   });
@@ -38,8 +38,8 @@ router.post('/reviews', async (req, res) => {
         res.status(201).send(newReview);
       }
     } catch (err) {
-      console.error('Error inserting products:', err);
-      res.status(500).send({ error: 'Failed to insert products.' });
+      console.error('Error inserting reviews:', err);
+      res.status(500).send({ error: 'Failed to add reviews.' });
     }
   });
   export default router;
