@@ -86,13 +86,3 @@ router.patch('/:id', async (req, res) => {
 });
 
 export default router;
-//Get Requests are here as well
-
-//POST test is http://localhost:3001/products/store
-// when testing the POST (for year remove the comma)
-
-// Clears all data from Database, POST request will always add the preexisting data back 
-//http://localhost:3001/products/clear
-
-//PATCH
-//http://localhost:3001/products/:id

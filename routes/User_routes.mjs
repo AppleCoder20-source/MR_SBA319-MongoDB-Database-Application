@@ -35,15 +35,3 @@ router.get('/', async (req, res) => {
     }
 });
 export default router;
-
-/*
-To see all Users
-http://localhost:3001/users/
-
-To see ids:
-http://localhost:3001/users/:id
-
-POST:
-http://localhost:3001/users/post
-
-*/

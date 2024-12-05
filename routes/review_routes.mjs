@@ -43,13 +43,3 @@ router.post('/reviews', async (req, res) => {
     }
   });
   export default router;
-/*
-To see all the reviews:
-http://localhost:3001/rev/
-
-To see ids:
-http://localhost:3001/rev/:id
-POST:
-http://localhost:3001/rev/reviews
-
-*/
