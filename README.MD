@@ -36,13 +36,12 @@ A Electronics store in which you can buy items from the shop. We also included a
  - UPDATE:
  -  http://localhost:3001/products/:id
 
- # Users:
+# Users:
 - GET:
 - To see all Users
 - http://localhost:3001/users/
 - To see ids:
 - http://localhost:3001/users/:id
-
 - POST:
 - http://localhost:3001/users/post
 
