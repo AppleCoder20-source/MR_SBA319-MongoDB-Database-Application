@@ -9,7 +9,7 @@ A Electronics store in which you can buy items from the shop. We also included a
   - Another clear all feature where everything removed from cart
   - We also included a review section
 
-# All Routes that are avaiable:
+# All Routes that are available:
 # Reviews:
 - GET Request to get all the reviews 
 - http://localhost:3001/rev/
